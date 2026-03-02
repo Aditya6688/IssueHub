@@ -1,4 +1,4 @@
-# IssueHub — A Lightweight Bug Tracker
+# IssueHub - A Lightweight Bug Tracker
 
 A minimal, full-stack bug tracker where teams can create projects, file issues, comment on them, and track status with role-based access control.
 
@@ -97,7 +97,7 @@ python seed.py
 uvicorn app.main:app --reload --port 8000
 ```
 
-**Environment variables** (optional — sensible defaults are provided):
+**Environment variables** (optional - sensible defaults are provided):
 
 | Variable | Default | Description |
 |----------|---------|-------------|
@@ -128,7 +128,7 @@ cd backend
 python -m pytest tests/ -v
 ```
 
-Tests use an in-memory SQLite database — no external DB setup needed.
+Tests use an in-memory SQLite database - no external DB setup needed.
 
 **Test coverage:**
 - Auth: signup, login, duplicate email, wrong password, protected routes
